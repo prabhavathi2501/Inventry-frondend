@@ -7,7 +7,7 @@ import Home from "../compontents/Home";
 import Header from "../compontents/Header";
 import Dashboard from "../compontents/Dashboard";
 import Create from "../compontents/Create";
-import NavBar from "../compontents/NavBar";
+
 import Customer from "../compontents/Customer";
 
 function AppRouter() {

@@ -41,16 +41,18 @@ function Signup() {
   
     <div className='container-fluid  signup'>
       <div className='row'>
-      <div className='col-1 p-2'>
+      <div className='col-4 p-2'>
+      <img src='' className='image-row'></img>
         <div >
-      <img src=' '></img></div>
+     </div>
       </div>
-        <div className='col-4 b-3'>
-    <h1 className='signup ' style={{textAlign:"center",background:""}}><i className="fa-solid fa-user-plus"></i>Signup Here!</h1>
-    <Card className='card  ' style={{ width: '25rem',background:"" }}>
-      <Card.Body style={{ width: '25rem',height:"30rem" }}>
+        <div className='col-3 b-3'>
+     {/* <h3 className='signup ' style={{textAlign:"center",background:""}}><i className="fa-solid fa-user-plus"></i>Signup Here!</h3>  */}
+    <Card className='card  ' style={{ width: '25rem', background:"white",border:"1px solid block"}}>
+      <Card.Body style={{ width: '20rem',height:"30rem" ,}}>
       <Form>
       <Form.Group className="mb-3" >
+        <h3 style={{alignContent:"center",color:"blue"}}>singn up</h3>
           <Form.Label>First Name </Form.Label>
           <Form.Control type="text" placeholder="Enter FirstName" onChange={(e)=>setFirstName(e.target.value)}/>
          </Form.Group>
@@ -73,10 +75,10 @@ function Signup() {
       </Card.Body>
       </Card>
       </div>
-      <div className='col-2'></div>
+      <div className='col-3'></div>
       </div>
     </div>
-    
+   
    
   </>
 }

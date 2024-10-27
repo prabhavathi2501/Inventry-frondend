@@ -23,26 +23,37 @@
     align-items: center;
 }
 .signup{
-    background-image:url("https://png.pngtree.com/thumb_back/fw800/background/20230718/pngtree-contemporary-authentic-3d-renderings-of-web-login-page-templates-image_3904126.jpg");
+     /* background-image:url("https://png.pngtree.com/thumb_back/fw800/background/20230718/pngtree-contemporary-authentic-3d-renderings-of-web-login-page-templates-image_3904126.jpg");  */
      background-repeat: no-repeat;
     background-attachment: fixed;
      background-size:cover;  
      width: 100%;
      height: auto;
 } 
-.image{
-    background-image:url(" https://media.istockphoto.com/id/1473971225/photo/changes-in-new-planning-hand-using-laptop-with-arrow-business-start-new-year-concept-digital.jpg?s=1024x1024&w=is&k=20&c=eQL-RmxPklMBaGYEKnkNA8CJ4_fTfWqI0Xl0EIp_UJw=");
+.signup{
+     
+     background-image:url("https://png.pngtree.com/thumb_back/fw800/background/20230718/pngtree-contemporary-authentic-3d-renderings-of-web-login-page-templates-image_3904126.jpg");  
     background-repeat: no-repeat;
-    /* background-attachment: fixed;
-     background-size: cover;  */
+    background-attachment: fixed;
+     background-size: cover; 
      width: 100vh;
      height: 100vh;
+     /* padding: 10px,10px;
+     margin-top: 250px; */
+}
+.card{
+    padding: 20px 0;
+    color: aqua;
+}
+.image-row{
+    align-items: center;
+   
 }
 .signin{
     background-image: url("https://as2.ftcdn.net/v2/jpg/01/19/11/55/1000_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg");
     background-repeat: no-repeat;
-    /* background-attachment: fixed;
-     background-size: cover;  */
+    background-attachment: fixed;
+     background-size: cover; 
      width: 100vh;
      height: 100vh;
      padding: 10px,10px;
@@ -51,4 +62,8 @@
 .table{
     padding: 50px;
     margin: auto;
+}
+.card{
+    padding: 20px 0;
+   background-color: blue;
 }

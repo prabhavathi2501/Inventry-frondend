@@ -40,7 +40,7 @@ navigate('/home')
   return <>
     <div className='container signin p-5 mt-5 'style={{}}>
       <div className='row ' >
-      <div className='col-6 p-2 mt-5 photo'>
+      <div className='col-2 p-2 mt-5 photo'>
         <div className=''>
         </div>
       </div>
@@ -49,8 +49,8 @@ navigate('/home')
 
         </div>
       </div>
-        <div className='col-5 b-5 p-2 '>
-    <h1 style={{textAlign:"center",color:"white"}}>Login Here!</h1>
+        <div className='col-5 b-5 p-2  'style={{alignContent:"center"}}>
+    <h1 style={{textAlign:"center",color:"aqua"}}>Login Here!</h1>
     <Card style={{ width: '25rem',height:"18rem",background:"" }}>
       <Card.Body>
       <Form>
@@ -65,6 +65,7 @@ navigate('/home')
         <Button variant="primary"  onClick={handleLogin}>
           Submit
         </Button>
+       
       </Form>
       </Card.Body>
       </Card>

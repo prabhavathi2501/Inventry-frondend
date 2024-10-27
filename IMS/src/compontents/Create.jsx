@@ -47,9 +47,9 @@ function Create() {
   </nav> */}
       <div className='inventry-warpper'>
      <div>
-     <h3 style={{textAlign:"center",color:"blue"}}>Add Your Products Details! <i className="fa-sharp fa-solid fa-pen-to-square" style={{color:"red"}}></i></h3>
+     <h3 style={{textAlign:"center",color:"blue"}}>Add Your Products Details! <i className="fa-sharp fa-solid fa-pen-to-square" style={{color:"blue"}}></i></h3>
     
-    <Card style={{ width: '25rem', backgroundColor:"rgb(248, 244, 243)",padding:"20px" }}>
+    <Card style={{ width: '25rem', backgroundColor:"rgb(248, 244, 243)",padding:"20px 10px",margin:"20px 250px" }}>
   
     <Form>
     

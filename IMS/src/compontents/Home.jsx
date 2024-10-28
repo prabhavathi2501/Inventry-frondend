@@ -8,9 +8,10 @@ function Home() {
   <Tile/>
   <div className='container'>
   <LineChart/>
+  
  
   </div>
-  <div className='container'>
+  <div className='container' style={{paddingBottom:"90px"}}>
   <PolarChart/>
   </div>
   {/* <LineChart/>

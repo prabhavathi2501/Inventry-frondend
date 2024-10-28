@@ -49,7 +49,7 @@ navigate('/home')
 
         </div>
       </div>
-        <div className='col-5 b-5 p-2  'style={{alignContent:"center"}}>
+        <div className='col-5 b-5 p-2  'style={{alignContent:"center",padding:"80px  10px"}}>
     <h1 style={{textAlign:"center",color:"aqua"}}>Login Here!</h1>
     <Card style={{ width: '25rem',height:"18rem",background:"" }}>
       <Card.Body>

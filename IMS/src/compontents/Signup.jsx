@@ -46,9 +46,9 @@ function Signup() {
         <div >
      </div>
       </div>
-        <div className='col-3 b-3'>
+        <div className='col-3 b-3' style={{padding:"100px 10px"}}>
      {/* <h3 className='signup ' style={{textAlign:"center",background:""}}><i className="fa-solid fa-user-plus"></i>Signup Here!</h3>  */}
-    <Card className='card  ' style={{ width: '25rem', background:"white",border:"1px solid block"}}>
+    <Card className='card  ' style={{ width: '25rem', backgroundColor:" rgb(116, 116, 217);",border:"1px solid block"}}>
       <Card.Body style={{ width: '20rem',height:"30rem" ,}}>
       <Form>
       <Form.Group className="mb-3" >

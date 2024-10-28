@@ -37,7 +37,7 @@ function Tile() {
         <h1 className="h3 mb-0 "style={{color:"violet"}}>INVENTORY  MANAGEMENTS </h1>
         <a href="#" className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
                 <i class="fa-solid fa-house"></i> Generate Report</a>
-                 <a href="#" className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm" onClick={()=>navigate(`/`)}>Logout </a>
+                 <a href="#" className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm" onClick={()=>navigate('/')}>Logout </a>
     </div>
     <div className="row">
        {

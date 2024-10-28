@@ -30,6 +30,10 @@
      width: 100%;
      height: auto;
 } 
+.singup-card{
+    background-color: rgb(40, 73, 73);
+
+}
 .signup{
      
      background-image:url("https://png.pngtree.com/thumb_back/fw800/background/20230718/pngtree-contemporary-authentic-3d-renderings-of-web-login-page-templates-image_3904126.jpg");  
@@ -44,6 +48,7 @@
 .card{
     padding: 20px 0;
     color: aqua;
+    
 }
 .image-row{
     align-items: center;

@@ -46,10 +46,10 @@ function Signup() {
         <div >
      </div>
       </div>
-        <div className='col-3 b-3' style={{padding:"100px 10px"}}>
+        <div className='col-3 b-2' style={{padding:"90px 10px",}}>
      {/* <h3 className='signup ' style={{textAlign:"center",background:""}}><i className="fa-solid fa-user-plus"></i>Signup Here!</h3>  */}
-    <Card className='card  ' style={{ width: '25rem', backgroundColor:" rgb(116, 116, 217);",border:"1px solid block"}}>
-      <Card.Body style={{ width: '20rem',height:"30rem" ,}}>
+    <Card className='card singup-card ' style={{ width: '21rem', backgroundColor:" ",border:"1px solid block"}}>
+      <Card.Body style={{ width: '20rem',height:"31rem" ,}}>
       <Form>
       <Form.Group className="mb-3" >
         <h3 style={{alignContent:"center",color:"blue"}}>singn up</h3>
@@ -71,6 +71,10 @@ function Signup() {
         <Button className='btns' variant="primary"  onClick={handleSignup}>
           Signup
         </Button>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <p style={{alignContent:"center"}}>Already have account?<a href='/signin'>Loging</a>Here</p>
       </Form>
       </Card.Body>
       </Card>

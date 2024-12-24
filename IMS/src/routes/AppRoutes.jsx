@@ -18,7 +18,7 @@ function AppRouter() {
         <Route path='/inventry/:id' element={<><Header/><Inventry/></>}/>
   
         <Route path='/home' element={ <><Header/><Home/></>}/>
-        <Route path='/signin' element={<Signin/>}/>
+        <Route path='/' element={<Signin/>}/>
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/customer' element={<><Header/><Customer/></>}/>
         <Route path='/' element={<Signup/>}/>

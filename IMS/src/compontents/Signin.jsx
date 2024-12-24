@@ -62,7 +62,7 @@ navigate('/home')
           <Form.Label>Password</Form.Label>
           <Form.Control type="password" placeholder="Password"onChange={(e)=>setPassword(e.target.value)} />
         </Form.Group>
-        <Button variant="primary"  onClick={handleLogin}>
+        <Button variant="primary" className='signin-btn' onClick={handleLogin}>
           Submit
         </Button>
         &nbsp;

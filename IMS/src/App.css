@@ -20,15 +20,15 @@
     text-decoration: none;
 }
 .btns{
-    align-items: center;
+    padding-left: 60px;
 }
 .signup{
      /* background-image:url("https://png.pngtree.com/thumb_back/fw800/background/20230718/pngtree-contemporary-authentic-3d-renderings-of-web-login-page-templates-image_3904126.jpg");  */
-     background-repeat: no-repeat;
+     /* background-repeat: no-repeat;
     background-attachment: fixed;
      background-size:cover;  
      width: 100%;
-     height: auto;
+     height: auto; */
 } 
 .singup-card{
     background-color: rgb(40, 73, 73);
@@ -37,11 +37,11 @@
 .signup{
      
      background-image:url("https://png.pngtree.com/thumb_back/fw800/background/20230718/pngtree-contemporary-authentic-3d-renderings-of-web-login-page-templates-image_3904126.jpg");  
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-     background-size: cover; 
+    /* background-repeat: no-repeat;
+    background-attachment: ;
+     background-size: ; 
      width: 100vh;
-     height: 100vh;
+     height: 100vh; */
      /* padding: 10px,10px;
      margin-top: 250px; */
 }
@@ -71,4 +71,11 @@
 .card{
     padding: 20px 0;
    background-color: rgb(116, 116, 217);
+}
+.signup-btn{
+   margin-left: 75px;
+  
+}
+.signin-btn{
+    margin-left: 115px;
 }

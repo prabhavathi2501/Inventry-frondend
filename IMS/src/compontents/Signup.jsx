@@ -52,7 +52,7 @@ function Signup() {
       <Card.Body style={{ width: '20rem',height:"31rem" ,}}>
       <Form>
       <Form.Group className="mb-3" >
-        <h3 style={{alignContent:"center",color:"blue"}}>singn up</h3>
+        <h3 style={{alignContent:"center",color:"blue",paddingLeft:"60px"}}>singn up</h3>
           <Form.Label>First Name </Form.Label>
           <Form.Control type="text" placeholder="Enter FirstName" onChange={(e)=>setFirstName(e.target.value)}/>
          </Form.Group>
@@ -68,7 +68,7 @@ function Signup() {
           <Form.Label>Password</Form.Label>
           <Form.Control type="password" placeholder="Password"onChange={(e)=>setPassword(e.target.value)} />
         </Form.Group>
-        <Button className='btns' variant="primary"  onClick={handleSignup}>
+        <Button className='signup-btn' variant="primary" style={{paddingLeft:""}}  onClick={handleSignup}>
           Signup
         </Button>
         &nbsp;

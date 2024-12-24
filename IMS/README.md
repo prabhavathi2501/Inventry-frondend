@@ -1,8 +1,7 @@
-# React + Vite
+Inventry Management is a web application designed to allow users to create, read, update, and delete product. It provides a  for managing product details stock and price  efficiently.
+show the relevent datails are display for polar and Line chart 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Technologies Used Frontend: HTML CSS (Bootstrap for styling) JavaScript React,Line chart,polar chart
+Technologies Used Backend:Node js,Expressjs
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Deployed URL :"https://inventorylogo.netlify.app/"

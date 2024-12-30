@@ -38,7 +38,7 @@ navigate('/home')
     }
   }
   return <>
-    <div className='container signin p-5 mt-5 'style={{}}>
+    <div className='container-fluid signin p-5 mt-5 'style={{overflowY:"hidden"}}>
       <div className='row ' >
       <div className='col-2 p-2 mt-5 photo'>
         <div className=''>

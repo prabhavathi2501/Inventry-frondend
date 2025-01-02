@@ -29,13 +29,14 @@ function Customer() {
   return (
     <>
     <div className='table'>
-    <div className="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 className="h3 mb-0 text-blue-800" style={{color:'blue'}}> Asset Management Inventory Customer Details</h1>
+    <div className="d-sm-flex  heading  ">
+        <h1 className="h3 text-blue-800" style={{color:'blue',paddingBottom:"20px"}}> Asset Management Inventory Customer Details</h1>
         {/* <a href="#" className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
         <i className="fas fa-fw fa-tachometer-alt"></i> Dashboard Report</a> */}
-                 <a href="#" className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm" onClick={()=>logout(`/`)}>Logout </a>
-    </div>
-    <Table striped bordered hover >
+                 <a href="#" className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm logout" onClick={()=>logout(`/`)} style={{marginLeft:"390px"}}>Logout </a>
+                 </div>
+                 <div>
+    <Table striped bordered hover  className='table-over'>
       <thead>
         <tr>
           <th>#</th>
@@ -61,7 +62,9 @@ function Customer() {
           }
       </tbody>
     </Table>
+ </div>
     </div>
+  
     </>
   )
 }

@@ -40,15 +40,15 @@ navigate('/home')
   return <>
     <div className='container-fluid signin p-5 mt-5 'style={{overflowY:"hidden"}}>
       <div className='row ' >
-      <div className='col-2 p-2 mt-5 photo'>
+      <div className='col-6 p-2 mt-5 photo'>
         <div className=''>
         </div>
       </div>
-      <div className='col-1'>
+      {/* <div className='col-1'>
         <div className=''>
 
-        </div>
-      </div>
+        </div> 
+      </div> */}
         <div className='col-5 b-5 p-2  'style={{alignContent:"center",padding:"80px  10px"}}>
     <h1 style={{textAlign:"center",color:"aqua"}}>Login Here!</h1>
     <Card style={{ width: '25rem',height:"20rem",background:"" }}>

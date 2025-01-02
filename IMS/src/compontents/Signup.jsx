@@ -41,14 +41,14 @@ function Signup() {
   
     <div className='container-fluid  signup'>
       <div className='row'>
-      <div className='col-4 p-2'>
+      <div className='col-6 p-2'>
       <img src='' className='image-row'></img>
         <div >
      </div>
       </div>
-        <div className='col-3 b-2' style={{padding:"90px 10px",}}>
+        <div className='col-5 b-2' style={{padding:"50px 10px",}}>
      {/* <h3 className='signup ' style={{textAlign:"center",background:""}}><i className="fa-solid fa-user-plus"></i>Signup Here!</h3>  */}
-    <Card className='card singup-card ' style={{ width: '21rem', backgroundColor:" ",border:"1px solid block"}}>
+    <Card className='card singup-card ' style={{ width: '22rem', backgroundColor:" ",border:"1px solid block"}}>
       <Card.Body style={{ width: '20rem',height:"31rem" ,}}>
       <Form>
       <Form.Group className="mb-3" >
@@ -79,7 +79,7 @@ function Signup() {
       </Card.Body>
       </Card>
       </div>
-      <div className='col-3'></div>
+      {/* <div className='col-3'></div> */}
       </div>
     </div>
    
